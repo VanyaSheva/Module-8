@@ -8,7 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+.wrapper{
+    max-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 .page-header{
     margin: 0 auto;
@@ -16,11 +20,15 @@ body{
     background-image: url("img/Vector_Smart_Object (1).png");
     background-repeat: no-repeat;
     background-size:cover;
+    height: 540px;
     text-align: center;
     background-position: center;
 }
 .page-header-nav{
-    padding: 0 auto;
+    padding-top: 20px;
+}
+.header-nav-buttons{
+    margin-bottom: 115px;
 }
 button{
     width: 90px;
@@ -41,18 +49,20 @@ button{
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 38px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
 }
 .header-heading{
+    margin-bottom: 18px;
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .bottom-heading{
-    margin: 0 auto;
+    margin-bottom: 18px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
@@ -66,16 +76,23 @@ button{
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+.main-header-button:hover{
+    transform: scale(1.1);
 }
 .people{
+    padding-top: 70px;
     text-align: center;
 }
 .section-heading{
+    margin-bottom: 15px;
     color: #333333;
     font-size: 22px;
     font-weight: 700;
 }
 .section-list-item{
+    margin: 0 auto 29px;
     width: 217px;
     list-style: none;
 }
@@ -128,6 +145,7 @@ button{
     font-weight: 300;
 }
 .bottom-button{
+    margin-bottom: 56px;
     height: 40px;
     text-align: center;
     border-radius: 40px;
@@ -136,6 +154,10 @@ button{
     color: #ff4e50;
     font-size: 14px;
     font-weight: 700;
+    width: 280px;
 }
-
+.bottom-button:hover{
+    filter: drop-shadow(5px 5px 5px #ff4e50 );
+    transform: scale(1.1);
+}
 
