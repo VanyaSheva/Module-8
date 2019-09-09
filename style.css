@@ -8,10 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.wrapper{
-    padding: 0 22px;
-    margin: 0 auto;
+.container{
     width: 100%;
+    min-width: 320px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .page-header{
