@@ -43,6 +43,7 @@ button{
     border: 0;
     background-color: transparent;
     transition: 0.2s ease-in-out;
+    cursor:pointer;
 }
 .nav-button:hover{
     border-radius: 40px;
@@ -56,6 +57,7 @@ button{
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
+    cursor: pointer;
 }
 .header-heading{
     margin-bottom: 18px;
